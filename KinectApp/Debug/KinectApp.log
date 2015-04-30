@@ -1,0 +1,20 @@
+﻿2015/01/09 13:32:36 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\admin\Desktop\F\KinectApp 6\KinectApp\KinectApp.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Kinect\v1.8\inc" /IC:\home\opencv\build\include /IC:\home\opencv\build\include\opencv /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\admin\desktop\f\kinectapp 6\kinectapp\main.cpp(166): warning C4244: '=' : 'USHORT' から 'uchar' への変換です。データが失われる可能性があります。
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\KinectApp.exe.embed.manifest.res" Debug\KinectApp_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\Desktop\F\KinectApp 6\Debug\KinectApp.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v1.8\lib\x86" /LIBPATH:C:\home\opencv\build\x86\vc11\lib Kinect10.lib opencv_calib3d246.lib opencv_contrib246.lib opencv_core246.lib opencv_features2d246.lib opencv_flann246.lib opencv_gpu246.lib opencv_haartraining_engine.lib opencv_highgui246.lib opencv_imgproc246.lib opencv_legacy246.lib opencv_ml246.lib opencv_nonfree246.lib opencv_objdetect246.lib opencv_photo246.lib opencv_stitching246.lib opencv_superres246.lib opencv_ts246.lib opencv_video246.lib opencv_videostab246.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\KinectApp.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\admin\Desktop\F\KinectApp 6\Debug\KinectApp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\Desktop\F\KinectApp 6\Debug\KinectApp.lib" /MACHINE:X86 Debug\KinectApp.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\KinectApp.exe.embed.manifest" /manifest Debug\KinectApp.exe.intermediate.manifest
+       LinkEmbedManifest:
+         KinectApp.vcxproj -> C:\Users\admin\Desktop\F\KinectApp 6\Debug\KinectApp.exe
+     1>プロジェクト "C:\Users\admin\Desktop\F\KinectApp 6\KinectApp\KinectApp.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:04.42
